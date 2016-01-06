@@ -1,0 +1,38 @@
+body {
+	font-family: 'font_light', helvetica, sans-serif;
+	letter-spacing: -0.01em;
+	font-size: 1em;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+//error message styling
+.notice, .alert {
+	background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    left: 25px;
+    margin: 0 auto;
+    max-width: 990px;
+    padding: 15px;
+    position: fixed;
+    right: 25px;
+    text-align: center;
+    top: 25px;
+    z-index: 1000;
+    border-radius: 5px;
+    border: 1px solid #333;
+
+    a.cross {
+        opacity: 0.8;
+        float: right;
+        color: #333;
+        text-decoration: none;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

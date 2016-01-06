@@ -1,0 +1,163 @@
+header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+	padding: 5px 0 0;
+	background: rgba(245, 245, 245, 0.7);
+	.logo {
+		display: inline-block;
+		width: 120px;
+		vertical-align: top;
+		margin: 1px 10px;
+
+		a {
+			opacity: 0.9;
+
+			&:hover {
+				opacity: 1;
+			}
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	menu {
+		margin: 9px 20px;
+		padding: 0;
+		display: inline-block;
+		vertical-align: top;
+
+		ul {
+			margin: 0;
+			padding: 0;
+
+			li {
+				display: inline-block;
+				border-radius: 3px;
+
+				&:hover {
+					background-color: rgba(240, 240, 240, 0.7);
+				}
+
+				&.active {
+					background-color: rgba(240, 240, 240, 0.7);
+				}
+				
+				a {
+					color: #333333;
+					display: block;
+					padding: 7px 15px 5px;
+					font-family: 'font_light', helvetica, sans-serif;
+					font-size: 1.1em;
+				}
+
+				&.brands {
+
+					.brands-dropdown {
+						position: absolute;
+						top: 56px;
+						left: 0;
+						right: 0;
+						margin: 0;
+						padding: 30px 0 20px 150px;
+						margin-top: 4px;
+						background: rgba(255, 255, 255, 0.7);
+						border-top: 1px solid #0B0B61;
+						display: none;
+
+						li {
+							display: inline-block;
+							vertical-align: top;
+							width: 130px;
+
+							&:hover {
+								background: none;
+							}
+
+							a {
+								color: #333333;
+								text-decoration: none;
+
+								figure {
+									margin: 0;
+									width: 115px;
+
+									img {
+										width: 100%;
+									}
+								}
+
+								h4 {
+									margin: 10px 0;
+									font-size: 1.1em;
+									font-family: 'font_bold', helvetica, sans-serif;
+									font-weight: normal;
+
+									&:hover {
+										font-size: 1.2em;
+									}
+								}
+							}
+
+							ul.brand-options {
+								margin: 0;
+								padding: 0;
+
+								li {
+									a {
+										color: #333333;
+										font-size: 0.9em;
+										display: block;
+										font-family: 'font_semibold_italic', helvetica, sans-serif;
+										padding: 5px 0;
+										opacity: 0.9;
+
+										&:hover {
+											font-size: 1em;
+											opacity: 1;
+										}
+									}
+								}
+							}
+						}
+					}
+
+					.brands-dropdown:after {
+						content: "";
+						display: block;
+						width: 0;
+						height: 0;
+						border-style: solid;
+						border-color: transparent;
+						border-width: 9px;
+						position: absolute;
+						z-index: 9999;
+						border-bottom: 9px solid #0B0B61;
+						top: -19px;
+						left: 200px;
+					}
+				}
+			}
+		}
+	}
+
+	.company-name {
+		float: right;
+		margin-right: 30px;
+		margin-top: 9px;
+
+		h1 {
+			margin: 0;
+			font-family: 'font_light_italic', helvetica, sans-serif;
+			font-size: 1.5em;
+			color: #333333;
+			font-weight: normal;
+			text-transform: uppercase;
+			cursor: pointer;
+		}
+	}
+}

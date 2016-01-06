@@ -1,0 +1,83 @@
+<section id="item-details">
+	<div class="cover-image">
+		<%= image_tag "ct/ct-cover.jpg", :alt => 'cover-image' %>
+	</div>
+	<div class="wrapper">
+		<div class="content">
+			<div class="heading">
+				<h3>Ct</h3>
+			</div>
+			<div class="information">
+				<div class="information-level-1">
+					<div class="overview">
+						<div class="overview-image">
+							<h4>OVERVIEW</h4>
+							<figure>
+								<%= image_tag "ct/ct_overview.jpg", :alt => 'overview-image' %>
+							</figure>
+						</div>
+						<div class="overview-text">
+							<p>
+								A feature filled motorcycle that proves its efficiency on the roads. A bike combined with reliability, ruggedness and everyday practicality in a classic look to offer stunning mileage of 89.6 (as per ARAI testing) and power.
+							</p>
+						</div>
+					</div>
+					<div class="model">
+						<h4>Select Model</h4>
+						<figure>
+							<%= image_tag "ct/ct_100.jpg", :alt => 'model image' %>
+						</figure>
+						<h3>ct 100</h3>
+					</div>
+				</div>
+				<div class="information-level-2">
+					<div class="technology">
+						<div class="slider">
+							<h4>Technology</h4>
+							<div class="slider-area">
+								<ul class="slider-items">
+									<li>
+										<div class="content">
+											<h3>ExhausTEC</h3>
+											<p>
+												Yet another engineering masterpiece, the ExhausTEC is the patented technology of Bajaj Auto. T.E.C stands for Torque Expansion Chamber - a tuned box or a resonator optimally and unobtrusively placed in the exhaust system of the vehicle to provide more torque in the low to mid-range rpms of the engine. It enhances your ride while providing maximum fuel efficiency.
+											</p>
+										</div>
+										<figure>
+											<%= image_tag "ct/exhaustec.jpg", :alt => 'exhaustic-image' %>
+										</figure>
+									</li>
+									<li>
+										<div class="content">
+											<h3>SNS Suspension</h3>
+											<p>
+												SNS stands for Spring-in-Spring (the world’s first technology) patented by Bajaj Auto.  An engineering break through that utilizes 2 co-axial springs mounted on a shock absorber at the rear in a twin shock setting that helps in delivering comfortable ride on any terrain, for any distance.
+											</p>
+										</div>
+										<figure>
+											<%= image_tag "ct/ct_sns.jpg", :alt => 'sns-image' %>
+										</figure>
+									</li>
+								</ul>
+								<div class="slider-arrows">
+					                <%= link_to "#", :class=>"left-arrow" do %>
+					                    <%= image_tag "left-arrow.png", :alt=>'left-arrow' %>
+					                <% end %>
+					                <%= link_to "#", :class=>"right-arrow" do %>
+					                    <%= image_tag "right-arrow.png", :alt=>'right-arrow' %>
+					                <% end %>
+					                <div class="clearfix"></div>
+					            </div>
+					            <ul class="slider-nav">
+							        <li><%= link_to "slider-circle", "#" %></li>
+							        <li><%= link_to "slider-circle", "#" %></li>
+
+							    </ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

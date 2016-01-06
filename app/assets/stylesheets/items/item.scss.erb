@@ -1,0 +1,221 @@
+#item {
+	.cover-image {
+		width: 100%;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.wrapper {
+		max-width: 1080px;
+		width: 96%;
+		padding: 0 2%;
+		margin: 0 auto;
+
+		.heading {
+			width: 1070px;
+			margin: 0 auto;
+			height: 66px;
+			background: asset-url('headding_bg.png') no-repeat;
+			background-position: center center;
+			background-size: cover;
+
+			h3 {
+				margin: 0;
+				margin-left: 35px;
+				padding-top: 2px;
+				font-size: 2em;
+				color: #ffffff;
+				font-family: 'font_semibold', helvetica, sans-serif;
+				font-weight: normal;
+				text-transform: uppercase
+			}
+		}
+
+		.container {
+			padding: 50px 31px 0;
+
+			.content {
+				display: inline-block;
+				vertical-align: top;
+				width: 460px;
+
+				h2 {
+					font-size: 1.8em;
+					font-family: 'font_bold_italic', helvetica, sans-serif;
+					font-weight: normal;
+					color: #333333;
+					margin: 0;
+					text-transform: uppercase;
+				}
+
+				p {
+					font-size: 0.9em;
+					font-family: 'font_light', helvetica, sans-serif;
+					color: #333333;
+					margin: 0;
+					text-align: justify;
+				}
+
+				ul.item-detail {
+					list-style: none;
+					padding: 0;
+					margin-top: 30px;
+
+					li {
+						padding: 15px 0;
+						border-bottom: 1px dashed #999999;
+
+						figure {
+							display: inline-block;
+							vertical-align: top;
+							width: 51px;
+							margin: 0;
+							margin-top: 2px;
+							margin-right: 15px;
+
+							img {
+								width: 100%;
+							}
+						}
+
+						.detail {
+							display: inline-block;
+							vertical-align: top;
+
+							h5 {
+								font-family: 'font_semibold', helvetica, sans-serif;
+								font-weight: normal;
+								font-size: 1.3em;
+								color: #0054A6;
+								margin: 0;
+								text-transform: uppercase;
+								line-height: 1.2;
+							}
+
+							p {
+								font-size: 0.9em;
+								font-family: 'font_light', helvetica, sans-serif;
+								color: #333333;
+								margin: 0;
+							}
+						}
+					}
+				}
+			}
+
+			.right-side {
+				display: inline-block;
+				vertical-align: top;
+				margin-left: 20px;
+
+				figure {
+					margin: 0;
+					width: 529px;
+
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.features {
+			margin-bottom: 40px;
+
+			h4 {
+				background: #002D62;
+				font-family: 'font_bold', helvetica, sans-serif;
+				font-size: 1.1em;
+				color: #ffffff;
+				line-height: 30px;
+				width: 100px;
+				text-align: center;
+				padding: 3px 10px;
+				border-top-right-radius: 7px;
+				border-bottom-left-radius: 7px;
+				font-weight: normal;
+				margin: 30px 0 60px 31px;
+				text-transform: uppercase;
+			}
+
+			.slider-area {
+				ul.slider-items {
+					min-height: 500px;
+					list-style: none;
+					li {
+						text-align: center;
+
+						.content {
+							display: inline-block;
+							vertical-align: top;
+							width: 250px;
+							margin-right: 40px; 
+							text-align: left;
+							padding-left: 20px;
+
+							h3 {
+								font-size: 1.8em;
+								font-weight: normal;
+								font-family: 'font_bold', helvetica, sans-serif;
+								color: #333333;
+								margin: 0;
+							}
+
+							.points {
+								margin-top: 10px;
+								padding-left: 20px;
+
+								p {
+									font-size: 0.9em;
+									font-family: 'font_bold_italic', helvetica, sans-serif;
+									color: #333333;
+									margin: 5px 0;
+									position: relative;
+								}
+
+								p:before {
+									content: "";
+									display: block;
+									width: 0;
+									height: 0;
+									border-style: solid;
+									border-color: transparent;
+									border-width: 6px;
+									position: absolute;
+									z-index: 9999;
+									border-left: 9px solid #333333;
+									top: 5px;
+									left: -20px;
+								}
+							}
+
+							p.text {
+								font-size: 0.8em;
+								font-family: 'font_light', helvetica, sans-serif;
+								color: #333333;
+								text-align: justify;
+								margin: 20px 0 0 5px;
+							}
+						}
+
+						.item-image {
+							display: inline-block;
+							vertical-align: top;
+
+							figure {
+								margin: 0;
+								width: 659px;
+
+								img {
+									width: 100%;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

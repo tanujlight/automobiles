@@ -1,0 +1,88 @@
+<section id="item-details">
+	<div class="cover-image">
+		<%= image_tag "avenger/avenger-cover.jpg", :alt => 'cover-image' %>
+	</div>
+	<div class="wrapper">
+		<div class="content">
+			<div class="heading">
+				<h3>Avenger</h3>
+			</div>
+			<div class="information">
+				<div class="information-level-1">
+					<div class="overview">
+						<div class="overview-image">
+							<h4>OVERVIEW</h4>
+							<figure>
+								<%= image_tag "avenger/avenger_overview.jpg", :alt => 'overview-image' %>
+							</figure>
+						</div>
+						<div class="overview-text">
+							<p>
+								The feeling of being the only one on the road comes when you ride a bike that has enough torque and muscle to dominate every twist and turn. A bike crafted for the divine rider. With Avenger 200, feel the world silently bowing down as you conquer every mile.
+							</p>
+						</div>
+					</div>
+					<div class="model">
+						<h4>Select Model</h4>
+						<figure>
+							<%= image_tag "avenger/avenger-220.jpg", :alt => 'model image' %>
+						</figure>
+						<h3>Avenger 220</h3>
+					</div>
+				</div>
+				<div class="information-level-2">
+					<div class="technology">
+						<div class="slider">
+							<h4>Technology</h4>
+							<div class="slider-area">
+								<ul class="slider-items">
+									<li>
+										<div class="content">
+											<h3>DTSi</h3>
+											<p>
+												A patented technology that has made Pulsar the most followed bike both on the road and in competition R &amp;D labs.
+											</p>
+											<p class="detail">
+												At the heart of every Pulsar, is one of the most sophisticated engine technologies ever built. The DTS-i System is a technological marvel. It combines the Spark Plug Combination (Twin or Triple Spark) with TRICS III (Throttle Response Ignition Control System) and Intelligent CDI to ensure maximum performance with the lowest fuel consumption and emission levels possible.
+											</p>
+										</div>
+										<figure>
+											<%= image_tag "avenger/new-dtsi.jpg", :alt => 'dtsi-image' %>
+										</figure>
+									</li>
+									<li>
+										<div class="content">
+											<h3>Twin Spark Ignition</h3>
+											<p>
+												Most ignition systems have a single spark plug. The flame front created by the spark takes some time to reach the entire combustion chamber. Hence the burning of the air-fuel mixture is slow and incomplete.
+											</p>
+											<p class="detail">
+												In case of the Twin Spark Ignition, two spark-plugs fire at the same time. This simultaneous firing and swirl of the air-fuel mixture results in complete combustion. This action is digitally controlled by the DTS-i system.
+											</p>
+										</div>
+										<figure>
+											<%= image_tag "avenger/twin-spark-ignition.jpg", :alt => 'twin-spark-ignition-image' %>
+										</figure>
+									</li>
+								</ul>
+								<div class="slider-arrows">
+					                <%= link_to "#", :class=>"left-arrow" do %>
+					                    <%= image_tag "left-arrow.png", :alt=>'left-arrow' %>
+					                <% end %>
+					                <%= link_to "#", :class=>"right-arrow" do %>
+					                    <%= image_tag "right-arrow.png", :alt=>'right-arrow' %>
+					                <% end %>
+					                <div class="clearfix"></div>
+					            </div>
+					            <ul class="slider-nav">
+							        <li><%= link_to "slider-circle", "#" %></li>
+		        					<li><%= link_to "slider-circle", "#" %></li>
+							    </ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,84 @@
+<header>
+	<div class="logo">
+		<%= link_to :controller => 'start', :action => 'index' do %>
+			<%= image_tag "logo.png", :alt => 'logo' %>
+		<% end %>
+	</div>
+	<menu>
+		<ul>
+			<li class="brands">
+				<%= link_to "Brands", '#' %>
+				<ul class="brands-dropdown">
+					<li>
+						<%= link_to :controller => 'start', :action => 'pulsar' do %>
+							<figure>
+								<%= image_tag "menu/pulsar.png", :alt => 'pulser-image' %>
+							</figure>
+							<h4>Pulsar</h4>
+						<% end %>
+						<ul class="brand-options">
+							<li><%= link_to "Pulsar NS 200", :controller => 'pulsar', :action => 'pulsar_ns' %></li>
+							<li><%= link_to "Pulsar F 220", :controller => 'pulsar', :action => 'pulsar_220' %></li>
+							<li><%= link_to "Pulsar 180", :controller => 'pulsar', :action => 'pulsar_180' %></li>
+							<li><%= link_to "Pulsar 150", :controller => 'pulsar', :action => 'pulsar_150' %></li>
+							<li><%= link_to "Pulsar 135", :controller => 'pulsar', :action => 'pulsar_135' %></li>
+						</ul>
+					</li>
+					<li>
+						<%= link_to :controller => 'start', :action => 'discover' do %>
+							<figure>
+								<%= image_tag "menu/discover.png", :alt => 'discover-image' %>
+							</figure>
+							<h4>Discover</h4>
+						<% end %>
+						<ul class="brand-options">
+							<li><%= link_to "Discover 150 F", :controller => 'discover', :action => 'discover_150f' %></li>
+							<li><%= link_to "Discover 150 S", :controller => 'discover', :action => 'discover_150s' %></li>
+							<li><%= link_to "Discover 125 M", :controller => 'discover', :action => 'discover_125m' %></li>
+							<li><%= link_to "Discover 100 M", :controller => 'discover', :action => 'discover_100m' %></li>
+						</ul>
+					</li>
+					<li>
+						<%= link_to :controller => 'start', :action => 'avenger' do %>
+							<figure>
+								<%= image_tag "menu/avenger.png", :alt => 'avenger-image' %>
+							</figure>
+							<h4>Avenger</h4>
+						<% end %>
+						<ul class="brand-options">
+							<li><%= link_to "Avenger 220", :controller => 'avenger', :action => 'avenger_220' %></li>
+						</ul>
+					</li>
+					<li>
+						<%= link_to :controller => 'start', :action => 'ct' do %>
+							<figure>
+								<%= image_tag "menu/ct.png", :alt => 'ct-image' %>
+							</figure>
+							<h4>CT</h4>
+						<% end %>
+						<ul class="brand-options">
+							<li><%= link_to "Ct 100", :controller => 'ct', :action => 'ct_100' %></li>
+						</ul>
+					</li>
+					<li>
+						<%= link_to :controller => 'start', :action => 'platina' do %>
+							<figure>
+								<%= image_tag "menu/platina.png", :alt => 'platina-image' %>
+							</figure>
+							<h4>Platina</h4>
+						<% end %>
+						<ul class="brand-options">
+							<li><%= link_to "Platina 100", :controller => 'platina', :action => 'platina_100' %></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><%= link_to "About Us", :controller => 'start', :action => 'about' %></li>
+			<li><%= link_to "Contact Us", :controller => 'start', :action => 'contact' %></li>
+		</ul>
+	</menu>
+	<div class="company-name">
+		<h1>Dinesh automobiles</h1>
+	</div>
+	<div class="clearfix"></div>
+</header>
